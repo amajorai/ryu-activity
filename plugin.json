@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.activity",
+  "version": "0.1.15",
+  "description": "The unified activity feed and agent observability workspace: inspect local audits, correlated traces, quality, and security evidence alongside monitor alerts, finished tasks, runs, approvals, meetings, and notes.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-activity",
+  "repository": "https://github.com/amajorai/ryu-activity",
+  "keywords": ["activity", "feed", "notifications", "history"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/activity",
+      "displayName": "Activity"
+    }
+  }
+}
